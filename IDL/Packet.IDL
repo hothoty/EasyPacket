@@ -1,0 +1,21 @@
+
+namespace Rmi 2000
+{
+	cs_test(int num);
+	sc_test(int a, bool b, string zz);
+
+	// id 수동 지정 샘플
+	ID500_aaa();
+	ID501_aaa2();
+
+	cs_login(NetCommon.CAccount account);
+
+	cs_list(List<NetCommon.CAccount> accList);
+	cs_dic(Dictionary<int, NetCommon.CAccount> accDics);
+}
+
+namespace RmiGame 30000
+{
+	cs_num(int aa);
+	sc_num(int bb);
+}
